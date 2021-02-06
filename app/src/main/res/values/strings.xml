@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TP4</string>
+    <string name="button"> Result</string>
+    <string name="edittext1"> ...</string>
+    <string name="textview1"> Laboratoire: </string>
+    <string name="textview2"> Departement: </string>
+    <string name="textview3"> Filiere: </string>
+    <string name="textview4"> Service: </string>
+    <string name="button1"> BACK </string>
+    <string name="radioList"> List </string>
+    <string name="radioPage"> Page </string>
+
+</resources>

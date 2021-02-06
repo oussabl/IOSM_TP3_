@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonrst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="15dp"
+        android:text="@string/button" />
+<!--         android:onClick="OnClick"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="102dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="0dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="@string/textview1" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="@string/textview2" />
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="@string/textview3" />
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="@string/textview4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="203dp"
+            android:layout_height="190dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edittext1"
+                android:layout_width="196dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:gravity="center"
+                 />
+
+            <EditText
+                android:id="@+id/edittext2"
+                android:layout_width="196dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:gravity="center"
+                 />
+            <EditText
+                android:id="@+id/edittext3"
+                android:layout_width="196dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:gravity="center"
+                 />
+            <EditText
+                android:id="@+id/edittext4"
+                android:layout_width="196dp"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="195dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radioList"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radioPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioPage"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+    </RadioGroup>
+
+</RelativeLayout>
